@@ -1,0 +1,4 @@
+/* hide empty block */
+div.ui.icon.header:empty {
+  display: none;
+}

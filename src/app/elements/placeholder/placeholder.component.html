@@ -1,0 +1,9 @@
+<div class="ui placeholder">
+  <div *ngIf="isHeader" class="image header">
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="paragraph">
+    <div class="line" *ngFor="let line of linesToShow"></div>
+  </div>
+</div>
